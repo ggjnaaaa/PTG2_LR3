@@ -17,4 +17,4 @@
 
 Результат: https://ggjnaaaa.github.io/PTG2_result_LR3/
 
-Работа была загружна через git-LFS, полный проект доступен на Google Drive: https://drive.google.com/file/d/144MPxSYZcgQmFENBwycPjfYP6ox8y8b8/view?usp=drive_link
+Работа была загружна через git-LFS, полный проект доступен на Google Drive: https://drive.google.com/file/d/1FSinRiSHR8muvcSZIG1xHbe0EExy-nuQ/view?usp=drive_link
