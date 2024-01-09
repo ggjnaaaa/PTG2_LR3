@@ -38,16 +38,6 @@ public class Player : MonoBehaviour
         float xMove = Input.GetAxisRaw("Vertical");  // Проверка нажатия кнопок w, s, up, down
         float zMove = -Input.GetAxisRaw("Horizontal");  // Проверка нажатия кнопок a, d, left, right
 
-        if (sprint && xMove > 0)
-        {
-            mSpeed = runSpeed;
-            cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, baseFov * sprintFov, Time.deltaTime);
-        }
-        else
-        {
-            mSpeed = walkSpeed;
-            cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, baseFov, Time.deltaTime);
-        }
         mSpeed = sprint && xMove > 0 ? runSpeed : walkSpeed;
         cam.fieldOfView = sprint && xMove > 0 ? Mathf.Lerp(cam.fieldOfView, baseFov * sprintFov, Time.deltaTime) : Mathf.Lerp(cam.fieldOfView, baseFov, Time.deltaTime);
 
